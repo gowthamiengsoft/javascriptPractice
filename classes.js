@@ -12,7 +12,7 @@ class Student {
     }
 }
 
-const studentresult = new Student('Gowthami', 'pass');
+const studentresult = new Student('Gowthami', 'fail');
 console.log(studentresult.result());
 console.log(studentresult);
 console.log(studentresult.name)
@@ -25,7 +25,7 @@ const student1 = class Student1 {
     this.age = age
   }
 }
-const student = new student1('Vatchala', 28);
+const student = new student1('Vatchala', 35);
 console.log(student);  
 
 console.log(student.name);
