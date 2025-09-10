@@ -4,7 +4,7 @@ const data1 = [{
     rollNo: 16,
 },
 {
-    name: 'Diya',
+    name: 'Rithvik',
     status: 'fail',
 }
 ]
