@@ -145,8 +145,8 @@
 // //     emai:'google'
 // // }
 
-// // newstudent = {...studentdetail1, ...studentdetail2, status:"married"};
-// // console.log(newstudent)
+newstudent = {...studentdetail1, ...studentdetail2, status:"married"};
+console.log(newstudent)
 
 // // firstName = 'Gowthami';
 

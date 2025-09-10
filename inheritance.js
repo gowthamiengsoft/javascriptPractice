@@ -10,9 +10,10 @@ class Students {
     }
 }
 
-
-
 const studentDetails = new Students('Gowthami', 14, 'pass' );
 
-console.log(studentDetails.result());
-console.log(studentDetails);
+// console.log(studentDetails.result());
+// console.log(studentDetails);
+
+// *******************Inheritance method is *******************
+
