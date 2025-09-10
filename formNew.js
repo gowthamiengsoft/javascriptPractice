@@ -59,7 +59,7 @@ submitBtn.addEventListener('click', (e) => {
   }
 
   if (!email.value.trim()) {
-    setError('email', 'Please enter your email');
+    setError('email', 'Please enter your validemail');
     isValid = false;
   }
 

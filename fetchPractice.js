@@ -40,7 +40,7 @@
 //CALLBACK FUNCTION**********************************************************
 
 let marks = [
-    {subject : 'Tamil', score : 80},
+    {subject : 'Tamil', score : 90},
     {subject : 'English', score : 76},
     {subject : 'Maths', score : 58},
     {subject : 'Science', score :45},
