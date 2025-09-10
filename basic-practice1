@@ -1,0 +1,211 @@
+// // // var a = 10;
+// // // var b = 10;
+
+// // // console.log(a+b);
+
+// // // 
+
+// // // for (let i=1; i<11; i++){
+
+// // //     console.log(i);
+// // // }
+
+// // let a = 10;
+// // let b = 20;
+
+// // a= a+b;
+// // // console.log(a);
+
+// // b= a-b;
+// // // console.log(b);
+
+// // a=a-b;
+// // // console.log(a);
+
+// // console.log('a:',a);
+// // console.log('b:',b);
+
+// // let firstName = 'Diya';
+// // let age  = 5;
+
+// // console.log("My Daughter name is "  + firstName + " and she is " + age + "years old");
+
+// // let result = "My Daughter name is "  + firstName + " and she is " + age + "years old";
+// // console.log(result);
+
+// // console.log(`My Daughter name is ${firstName} and she is ${age} years old`);
+
+
+// // const detail = {
+// //     name : 'Gowthami',
+// //     age:36,
+// //     qualification:'bsc'
+// // }
+// // const detail2 ={
+// //     name: 'Vatchala',
+// //     age:38,
+// //     qualification:'Bcom'
+// // }
+
+
+// // function mydetails(name, age){
+// //     console.log(name, age);
+// // }
+// // mydetails(detail.name, detail.age);
+// // mydetails(detail2.name, detail2.age);
+
+// // function total (a, b){
+// //     console.log(a+b);
+// // }
+// // total(10,10);
+
+// // function fam(firstName, lastName){
+
+// //     console.log(`My name is ${firstName} ${lastName}`);
+// //     console.log("My name is " + firstName + " " + lastName )
+
+// // }
+// // fam('Gowthami', 'Raksan');
+
+
+// // function family (firstName, lastName){
+    
+// //     console.log (firstName +" "+ lastName);
+    
+
+// // }
+// // family('Raksan', 'Thanksan');
+
+// // let lay = '';
+
+// // for (let i = 0; i < 5; i++){
+// //     lay = lay + (`* `);
+    
+// // }
+// // console.log(lay);
+
+
+// // let out = "";
+// // for(let i=0; i<10; i++){
+// //     for(let j=1; j<10; j++){
+// //         out = out + i + ' ';
+// //     }
+    
+// // out = out + '\n';
+// // }
+// // console.log(out);
+
+// // let space = "";
+// // for (let i=1; i<11; i++){
+// //     for (let j=0; j<i; j++){
+// //         space = space + i;
+
+// //     }
+// //     space = space + '\n';
+
+
+// // }
+// // console.log(space);
+
+// // let print = "";
+// // for (let i=10; i>0; i--){
+
+// //     // let odd = (i*2)-1;
+// //     for (let j=0; j<i; j++){
+// //         print = print + (i%2?0:1) + ' ';
+
+// //     }
+// //     print = print + '\n';
+
+
+// // }
+// // console.log(print);
+
+// /***********SPREAD OPERATOR *************/ 
+
+// subject1 = ['tamil', 'english', 'maths']
+// subject2 = ['science', 'social science']
+
+
+// // console.log(subject1);
+// // console.log(subject2);
+// // newsub = subject1.concat(subject2);
+// // console.log(newsub);
+
+// // newsub1 = [...subject1, ...subject2, 'computer'];
+// // console.log(newsub1)
+
+// // studentdetail1 = {
+// //     name:'Gowthami',
+// //     age:36,
+// //     qualification:"BSC"
+// // }
+// // studentdetail2 = {
+// //     livein : 'Bangalore',
+// //     emai:'google'
+// // }
+
+// // newstudent = {...studentdetail1, ...studentdetail2, status:"married"};
+// // console.log(newstudent)
+
+// // firstName = 'Gowthami';
+
+// // newname = [...firstName];
+// // console.log(newname);
+
+// /***********DESTRUCTURING *************/ 
+
+// const friends = ['Diya', 'Rithvik', 'Raksan', 'Thanksan'];
+
+// let [a,b,c,d] = friends;
+
+// console.log(c, a);
+
+// studentdetails1 = {
+//     bestname :{
+//     name:'Gowthami',
+//     age:36,
+//     },    
+//     qualification:"BSC",
+//     livein : 'Bangalore',
+//     emai:'google'
+// }
+
+// let {bestname:{name, age}} = studentdetails1
+// console.log(name, age)
+// // let {name,age,emai,qualification} = studentdetails1
+// // console.log(name,age,emai,qualification);
+
+// // let a = 10;
+// // let b = 20;
+
+// // [a,b] = [b,a]
+// // console.log(a,b);
+
+// function calculate(a,b,c){
+//     let add = a + b + c;
+//     let sub = a - b - c;
+//     let mul = a * b - c;
+//     return{add, sub, mul};
+
+// }
+
+// const answr = calculate(10,5,20);
+// console.log(answr);
+
+// const emp = [ 
+
+//     {name:'Gowthami', age:36, qual:'BSC'},
+//     {name:'VAT', age:39, qual:'BSC'},
+//     {name:'Diya', age:28, qual:'BSC'},
+// ];
+
+
+
+// [{age:age1, age:age2}]
+// console
+// // [,,{name, qual}] = emp
+// console.log(name,  age);
+// // let[emp1, emp2, emp3] = emp;
+// // console.log(emp1);
+// // console.log(emp3);
